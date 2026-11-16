@@ -218,3 +218,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- STM32CubeIDE & C Firmware Build Artifacts ---
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+.settings/
+
+# --- KiCad 8/9 Temporary & Backup Files ---
+*-backups/
+fp-info-cache
+*.lck
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+~*
+_autosave-*
